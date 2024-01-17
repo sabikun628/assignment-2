@@ -534,3 +534,46 @@
         grid-template-columns: 1fr 1.5fr;
     }
 }
+
+/* Footer start */
+
+.footer-wrapper {
+    background: #1313180D;
+    padding: 100px 20px;
+}
+
+.footer-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-logo-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-desc {
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    color: #5A5A5D;
+}
+
+.social-icon-wrapper {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hr-line {
+    border: 1px solid #13131812;
+    max-width: 500px;
+    margin: 20px auto 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: #131318;
+
+}
