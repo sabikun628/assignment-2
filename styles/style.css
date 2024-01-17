@@ -5,9 +5,11 @@
     box-sizing: border-box;
 
 }
-.description{
+
+.description {
     color: rgba(19, 19, 24, 0.70);
 }
+
 /* Container */
 .container {
     max-width: 1500px;
@@ -68,7 +70,7 @@
 
     .ul-menu {
         display: flex;
-        
+
     }
 }
 
@@ -113,7 +115,7 @@
     padding: 10px;
     width: fit-content;
     margin: 50px auto 0;
-    
+
 }
 
 .hero-input {
@@ -129,8 +131,15 @@
     background-color: #FF5400;
     color: white;
     border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
 }
 
+.search-icon-image {
+    width: 25px;
+}
 
 
 @media screen and (min-width: 600px) {
