@@ -135,6 +135,13 @@
     align-items: center;
     gap: 10px;
     justify-content: center;
+    transition: .3s all ease-in-out;
+}
+
+.hover-btn:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
 }
 
 .search-icon-image {
